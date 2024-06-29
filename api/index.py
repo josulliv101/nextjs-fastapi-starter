@@ -12,8 +12,8 @@ app = FastAPI()
 @app.get("/api/python")
 def hello_world():
     result = graph_chain().invoke(
-            {"query": "List all the food types."},
-            prompt=CYPHER_GENERATION_PROMPT,
+            {"query": "Where is Burtons Grill."},
+            
             return_only_outputs=True,
         )["result"]
     return {"message": result}
