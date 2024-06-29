@@ -7,6 +7,7 @@ langchain-core==0.2.10
 langchain-openai==0.1.8
 langchain-text-splitters==0.2.2
 Levenshtein==0.25.1
+neo4j==5.20.0
 python-dotenv==1.0.1
 starlette==0.27.0
 uvicorn[standard]==0.23.2
